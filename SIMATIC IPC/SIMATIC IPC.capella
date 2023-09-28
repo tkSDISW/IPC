@@ -8191,12 +8191,6 @@
             </ownedFeatures>
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
                 id="f01971c9-80d7-44ab-ae7a-95424ae5ed0f" name="PP 13"/>
-            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="7660d701-de5c-4bff-8c07-22c6ec724e33"
-                name="HDMI Connector" abstractType="#ed44a72b-1f04-4963-84fb-42e355df82e4">
-              <ownedDeploymentLinks xsi:type="org.polarsys.capella.core.data.pa.deployment:PartDeploymentLink"
-                  id="641c782d-30a1-4478-a5fe-98588ebae603" deployedElement="#9775fa21-b9f2-4eeb-8746-382c8889b5ca"
-                  location="#7660d701-de5c-4bff-8c07-22c6ec724e33"/>
-            </ownedFeatures>
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="98de36c5-eb38-4183-b597-27463e8a982b"
                 name="USB 2" abstractType="#0657e1d7-ea63-40cf-898c-3432d390ea93">
               <ownedDeploymentLinks xsi:type="org.polarsys.capella.core.data.pa.deployment:PartDeploymentLink"
@@ -8221,27 +8215,15 @@
                   id="5e5b1fcc-852f-4d18-aa08-f9105c4c2be3" deployedElement="#6d692284-7f0a-421a-a403-79f59be2bc37"
                   location="#a7038f6b-7d60-4f48-a419-6c5e450ea38d"/>
             </ownedFeatures>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="7660d701-de5c-4bff-8c07-22c6ec724e33"
+                name="HDMI Connector" abstractType="#ed44a72b-1f04-4963-84fb-42e355df82e4">
+              <ownedDeploymentLinks xsi:type="org.polarsys.capella.core.data.pa.deployment:PartDeploymentLink"
+                  id="641c782d-30a1-4478-a5fe-98588ebae603" deployedElement="#9775fa21-b9f2-4eeb-8746-382c8889b5ca"
+                  location="#7660d701-de5c-4bff-8c07-22c6ec724e33"/>
+            </ownedFeatures>
             <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
                 id="c6924851-77c6-47f5-8073-964aa967c2cb" name="CMOS Backup Battery Holder"
                 nature="NODE"/>
-            <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
-                id="ed44a72b-1f04-4963-84fb-42e355df82e4" name="HDMI Connector" nature="NODE">
-              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
-                  id="431532a0-65f9-458e-bbbf-32d515edd58b" name="PP 1">
-                <ownedComponentPortAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentPortAllocation"
-                    id="925e6a91-091f-4564-af8a-cf4e0e5778bf" targetElement="#b255d648-6ffe-47ee-993c-b8360c07ef92"
-                    sourceElement="#431532a0-65f9-458e-bbbf-32d515edd58b"/>
-              </ownedFeatures>
-              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
-                  id="1dab628d-ff99-4ebb-bdbf-253d2b3c0294" name="PP 2">
-                <ownedComponentPortAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentPortAllocation"
-                    id="604804c2-7ad7-40be-84bf-6fc54646f9d7" targetElement="#bf8f7dcf-0e0d-4a52-b609-ae7e020dc097"
-                    sourceElement="#1dab628d-ff99-4ebb-bdbf-253d2b3c0294"/>
-                <ownedComponentPortAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentPortAllocation"
-                    id="f540ff3c-8a1f-4bb4-99a3-9f64084e7f6f" targetElement="#d2bb5ee6-d9ed-44bb-b697-5f51c9c54f6a"
-                    sourceElement="#1dab628d-ff99-4ebb-bdbf-253d2b3c0294"/>
-              </ownedFeatures>
-            </ownedPhysicalComponents>
             <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
                 id="0657e1d7-ea63-40cf-898c-3432d390ea93" name="USB 2" nature="NODE">
               <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
@@ -8277,6 +8259,24 @@
                   id="39004d9f-af48-453d-9f97-598e000892cd" name="PP 1"/>
               <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
                   id="60ff4cf1-6849-4467-bc2b-413307710aa4" name="PP 2"/>
+            </ownedPhysicalComponents>
+            <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+                id="ed44a72b-1f04-4963-84fb-42e355df82e4" name="HDMI Connector" nature="NODE">
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                  id="431532a0-65f9-458e-bbbf-32d515edd58b" name="PP 1">
+                <ownedComponentPortAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentPortAllocation"
+                    id="925e6a91-091f-4564-af8a-cf4e0e5778bf" targetElement="#b255d648-6ffe-47ee-993c-b8360c07ef92"
+                    sourceElement="#431532a0-65f9-458e-bbbf-32d515edd58b"/>
+              </ownedFeatures>
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                  id="1dab628d-ff99-4ebb-bdbf-253d2b3c0294" name="PP 2">
+                <ownedComponentPortAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentPortAllocation"
+                    id="604804c2-7ad7-40be-84bf-6fc54646f9d7" targetElement="#bf8f7dcf-0e0d-4a52-b609-ae7e020dc097"
+                    sourceElement="#1dab628d-ff99-4ebb-bdbf-253d2b3c0294"/>
+                <ownedComponentPortAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentPortAllocation"
+                    id="f540ff3c-8a1f-4bb4-99a3-9f64084e7f6f" targetElement="#d2bb5ee6-d9ed-44bb-b697-5f51c9c54f6a"
+                    sourceElement="#1dab628d-ff99-4ebb-bdbf-253d2b3c0294"/>
+              </ownedFeatures>
             </ownedPhysicalComponents>
           </ownedPhysicalComponents>
           <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"

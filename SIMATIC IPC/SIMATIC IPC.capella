@@ -154,6 +154,10 @@
                 tcuid="BHqZTqJ74nxmPD" stableTcId="BHqZTqJ74nxmPD"/>
           </ownedRelations>
         </ownedRequirements>
+        <ownedRequirements xsi:type="Requirements:Folder" id="3e239c66-b8f7-479e-93a5-610c647671b7">
+          <ownedRequirements xsi:type="Requirements:Requirement" id="797af196-8f60-4683-accc-f2bdfaa02f70"
+              ReqIFLongName="test"/>
+        </ownedRequirements>
       </ownedExtensions>
     </ownedExtensions>
     <ownedPropertyValuePkgs xsi:type="org.polarsys.capella.core.data.capellacore:PropertyValuePkg"

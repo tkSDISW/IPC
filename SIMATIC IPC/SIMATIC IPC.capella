@@ -60,26 +60,6 @@
       </ownedExtensions>
       <ownedExtensions xsi:type="CapellaRequirements:CapellaModule" id="b185fef5-4db3-4abc-82e3-db0f38cca2b7"
           ReqIFLongName="PLM Requirements" moduleType="#c8b2c153-12f7-4c88-b183-07b220234d1b">
-        <ownedRequirements xsi:type="Requirements:Requirement" id="be86a087-47d8-4d4f-83b9-5b8374389a2f"
-            ReqIFDescription=" The system shall operate  to a maximum temperature of  5 0 ° C [ Operate High  Temp] ."
-            ReqIFLongName="Operational High Temperature" ReqIFPrefix="REQ-002742/A"
-            requirementType="#0583195a-766d-4d23-8d7f-cad24505cdfb" ReqIFText="&lt;p style=&quot;margin-top:0pt; margin-bottom:0pt; font-size:11pt&quot;>&lt;span style=&quot;font-family:Univers&quot;>The system shall operate&lt;/span>&lt;span style=&quot;font-family:Univers&quot;> to a maximum temperature of &lt;/span>&lt;span style=&quot;font-family:Univers&quot;>5&lt;/span>&lt;span style=&quot;font-family:Univers&quot;>0 °&lt;/span>&lt;span style=&quot;font-family:Univers&quot;>C&lt;/span>&lt;span style=&quot;font-family:Univers&quot;>[&lt;/span>&lt;span style=&quot;font-family:Univers&quot;>Operate High&lt;/span>&lt;span style=&quot;font-family:Univers&quot;> Temp]&lt;/span>&lt;span style=&quot;font-family:Univers&quot;>.&lt;/span>&lt;/p>">
-          <ownedExtensions xsi:type="smw:TcItemRevision" id="ba5f2cab-e7e9-44f9-890e-aef4ac5e060f"
-              tcuid="RxtVn0kb4nxmPD" stableTcId="BxhVn0kb4nxmPD" itemId="REQ-002742"
-              revisionId="A"/>
-          <ownedRelations xsi:type="CapellaRequirements:CapellaOutgoingRelation" id="b7d709ef-4c5a-4087-ba65-8a3a500407f8"
-              relationType="#279abda6-49d4-4ceb-b8e3-1d33162506bd" relationTypeProxy="Trace Link"
-              source="#05749cb4-9371-47fc-8d19-2ca889129742" target="#be86a087-47d8-4d4f-83b9-5b8374389a2f">
-            <ownedExtensions xsi:type="smw:TcItemRevision" id="91d498b7-66c6-4315-be1a-1b79c3c0b000"
-                tcuid="m0gVns8_4nxmPD" stableTcId="m0gVns8_4nxmPD"/>
-          </ownedRelations>
-          <ownedRelations xsi:type="CapellaRequirements:CapellaOutgoingRelation" id="176019ea-0b0d-49e1-8506-8c29e8bef1e5"
-              relationType="#279abda6-49d4-4ceb-b8e3-1d33162506bd" relationTypeProxy="Trace Link"
-              source="#9403fa3a-94ce-4cee-851f-d487c9359596" target="#be86a087-47d8-4d4f-83b9-5b8374389a2f">
-            <ownedExtensions xsi:type="smw:TcItemRevision" id="60158f17-a44e-47f5-ae4e-cc6a18489a24"
-                tcuid="xPqZTqJ74nxmPD" stableTcId="xPqZTqJ74nxmPD"/>
-          </ownedRelations>
-        </ownedRequirements>
         <ownedRequirements xsi:type="Requirements:Requirement" id="88230418-115d-4f7e-bad0-ab79e8184dc5"
             ReqIFDescription=" The system shall operate to a m inimum  temperature of  0  ° C [ Operate Low Temp] ."
             ReqIFLongName="Operational Low Temperature" ReqIFPrefix="REQ-002757/A"
@@ -154,10 +134,6 @@
                 tcuid="BHqZTqJ74nxmPD" stableTcId="BHqZTqJ74nxmPD"/>
           </ownedRelations>
         </ownedRequirements>
-        <ownedRequirements xsi:type="Requirements:Folder" id="3e239c66-b8f7-479e-93a5-610c647671b7">
-          <ownedRequirements xsi:type="Requirements:Requirement" id="797af196-8f60-4683-accc-f2bdfaa02f70"
-              ReqIFLongName="test"/>
-        </ownedRequirements>
       </ownedExtensions>
     </ownedExtensions>
     <ownedPropertyValuePkgs xsi:type="org.polarsys.capella.core.data.capellacore:PropertyValuePkg"
@@ -215,6 +191,29 @@
     </ownedPropertyValuePkgs>
     <ownedArchitectures xsi:type="org.polarsys.capella.core.data.oa:OperationalAnalysis"
         id="fe884c53-52f6-41db-9609-b91dec99d407" name="Operational Analysis">
+      <ownedExtensions xsi:type="CapellaRequirements:CapellaModule" id="9229d3cb-7a13-431e-b22d-98380313c3a2"
+          ReqIFLongName="OA">
+        <ownedRequirements xsi:type="Requirements:Requirement" id="be86a087-47d8-4d4f-83b9-5b8374389a2f"
+            ReqIFDescription=" The system shall operate  to a maximum temperature of  5 0 ° C [ Operate High  Temp] ."
+            ReqIFLongName="Operational High Temperature" ReqIFPrefix="REQ-002742/A"
+            requirementType="#0583195a-766d-4d23-8d7f-cad24505cdfb" ReqIFText="&lt;p style=&quot;margin-top:0pt; margin-bottom:0pt; font-size:11pt&quot;>&lt;span style=&quot;font-family:Univers&quot;>The system shall operate&lt;/span>&lt;span style=&quot;font-family:Univers&quot;> to a maximum temperature of &lt;/span>&lt;span style=&quot;font-family:Univers&quot;>5&lt;/span>&lt;span style=&quot;font-family:Univers&quot;>0 °&lt;/span>&lt;span style=&quot;font-family:Univers&quot;>C&lt;/span>&lt;span style=&quot;font-family:Univers&quot;>[&lt;/span>&lt;span style=&quot;font-family:Univers&quot;>Operate High&lt;/span>&lt;span style=&quot;font-family:Univers&quot;> Temp]&lt;/span>&lt;span style=&quot;font-family:Univers&quot;>.&lt;/span>&lt;/p>">
+          <ownedExtensions xsi:type="smw:TcItemRevision" id="ba5f2cab-e7e9-44f9-890e-aef4ac5e060f"
+              tcuid="RxtVn0kb4nxmPD" stableTcId="BxhVn0kb4nxmPD" itemId="REQ-002742"
+              revisionId="A"/>
+          <ownedRelations xsi:type="CapellaRequirements:CapellaOutgoingRelation" id="b7d709ef-4c5a-4087-ba65-8a3a500407f8"
+              relationType="#279abda6-49d4-4ceb-b8e3-1d33162506bd" relationTypeProxy="Trace Link"
+              source="#05749cb4-9371-47fc-8d19-2ca889129742" target="#be86a087-47d8-4d4f-83b9-5b8374389a2f">
+            <ownedExtensions xsi:type="smw:TcItemRevision" id="91d498b7-66c6-4315-be1a-1b79c3c0b000"
+                tcuid="m0gVns8_4nxmPD" stableTcId="m0gVns8_4nxmPD"/>
+          </ownedRelations>
+          <ownedRelations xsi:type="CapellaRequirements:CapellaOutgoingRelation" id="176019ea-0b0d-49e1-8506-8c29e8bef1e5"
+              relationType="#279abda6-49d4-4ceb-b8e3-1d33162506bd" relationTypeProxy="Trace Link"
+              source="#9403fa3a-94ce-4cee-851f-d487c9359596" target="#be86a087-47d8-4d4f-83b9-5b8374389a2f">
+            <ownedExtensions xsi:type="smw:TcItemRevision" id="60158f17-a44e-47f5-ae4e-cc6a18489a24"
+                tcuid="xPqZTqJ74nxmPD" stableTcId="xPqZTqJ74nxmPD"/>
+          </ownedRelations>
+        </ownedRequirements>
+      </ownedExtensions>
       <ownedFunctionPkg xsi:type="org.polarsys.capella.core.data.oa:OperationalActivityPkg"
           id="a275fc71-5003-4857-9113-0468c4b2de3d" name="Operational Activities">
         <ownedOperationalActivities xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
